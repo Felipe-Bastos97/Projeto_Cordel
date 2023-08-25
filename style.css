@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: Playfair_display ;
+    src: url('Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('wght'); 
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: rgb(3, 3, 3);
+    height: 200px;
+    width: auto;   
+    color:white;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+
+   
+    
+
+    
+}
+h1{font-size: 60px;}
+
+a{ color:white;}
+
+p{
+    
+    font-family: 'Playfair_display';
+    font-size: 30px;
+    
+    
+      
+  
+}
+
+
+    #b{
+        background:black url(pacote-d012/imagens/background001.jpg) center no-repeat fixed;
+        background-size: cover;
+       
+       
+        width: 100%;
+        color: white;
+        padding-bottom: 8%;
+
+        
+        
+  
+    
+    
+
+    
+
+}
+
+#d{
+    background: black url(pacote-d012/imagens/background002.jpg) center no-repeat fixed;
+    height: 100%;
+    background-size: cover;
+    padding: 4%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
