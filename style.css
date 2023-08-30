@@ -8,6 +8,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
 }
 header{
     background-color: rgb(3, 3, 3);
@@ -17,28 +18,33 @@ header{
     text-align: center;
     margin-top: 0px;
     padding-top: 10px;
+    font-variant: small-caps;
 
    
     
 
     
 }
-h1{font-size: 60px;}
+h1{     font-size: 60px;
+        margin-top:10px;
+}
 
-a{ color:white;}
+a{      color:white;}
 
 p{
-    
-    font-family: 'Playfair_display';
-    font-size: 30px;
+        
+        font-family: 'Playfair_display';
+        font-size: 30px;
+        line-height: 2em ;
     
     
       
   
 }
+#id{    padding-top: 10vh;
+        padding-bottom: 10vh;}
 
-
-    #b{
+#b{
         background:black url(pacote-d012/imagens/background001.jpg) center no-repeat fixed;
         background-size: cover;
        
@@ -47,14 +53,10 @@ p{
         color: white;
         padding-bottom: 8%;
 
-        
-        
-  
-    
-    
-
-    
-
+}
+pre>p>#id{
+    background-color: black;
+    width: 400px;
 }
 
 #d{
