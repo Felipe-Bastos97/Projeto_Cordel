@@ -9,7 +9,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-main{
+header{
     background-color: rgb(3, 3, 3);
     height: 200px;
     width: auto;   
